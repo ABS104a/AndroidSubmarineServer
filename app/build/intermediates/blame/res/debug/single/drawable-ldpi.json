@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_launcher.png",
+        "source": "/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/src/main/res/drawable-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/res/merged/debug/drawable-ldpi/stop.png",
+        "source": "/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/src/main/res/drawable-ldpi/stop.png"
+    },
+    {
+        "merged": "/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/res/merged/debug/drawable-ldpi/play.png",
+        "source": "/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/src/main/res/drawable-ldpi/play.png"
+    }
+]

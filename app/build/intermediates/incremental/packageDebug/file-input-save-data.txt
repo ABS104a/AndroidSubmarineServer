@@ -1,0 +1,36 @@
+#Internal package file, do not edit.
+#Sat Mar 25 15:53:23 JST 2017
+2.base=/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_04e341faed001a7dc4d8e3d4c1ae079970ecbe7a
+5.file=/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/stop.png
+5.set=ANDROID_RESOURCE
+3.base=/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/res/resources-debug.ap_
+6.file=/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/ic_launcher.png
+2.set=DEX
+10.set=ASSET
+10.file=/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/assets/debug/style.css
+4.base=/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/assets/debug
+7.file=/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/res/resources-debug.ap_/res/layout/main.xml
+7.set=ANDROID_RESOURCE
+count=11
+0.file=/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/assets/debug/header.jpg
+5.base=/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/res/resources-debug.ap_
+8.file=/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/play.png
+4.set=ASSET
+6.base=/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/res/resources-debug.ap_
+1.file=/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+9.set=DEX
+9.file=/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e6643648a86f38dc6df0a2aace46ba4b18ceb320/classes.dex
+10.base=/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/assets/debug
+1.set=ANDROID_RESOURCE
+7.base=/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/res/resources-debug.ap_
+2.file=/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_04e341faed001a7dc4d8e3d4c1ae079970ecbe7a/classes.dex
+6.set=ANDROID_RESOURCE
+0.base=/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/assets/debug
+8.base=/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/res/resources-debug.ap_
+3.file=/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/res/resources-debug.ap_/resources.arsc
+3.set=ANDROID_RESOURCE
+1.base=/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/res/resources-debug.ap_
+9.base=/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e6643648a86f38dc6df0a2aace46ba4b18ceb320
+4.file=/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/assets/debug/index.html
+8.set=ANDROID_RESOURCE
+0.set=ASSET

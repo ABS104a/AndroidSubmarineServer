@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="15b7fbf35bd05e7572201d2bf7fb339f87683279">
+        <dex dex="/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_04e341faed001a7dc4d8e3d4c1ae079970ecbe7a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e6643648a86f38dc6df0a2aace46ba4b18ceb320/classes.dex" />
+    </item>
+
+</items>
