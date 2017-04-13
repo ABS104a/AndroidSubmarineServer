@@ -1,7 +1,4 @@
-#Sat Mar 25 15:53:23 JST 2017
-base.0=/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e6643648a86f38dc6df0a2aace46ba4b18ceb320
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_04e341faed001a7dc4d8e3d4c1ae079970ecbe7a/classes.dex
-base.1=/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_04e341faed001a7dc4d8e3d4c1ae079970ecbe7a
-file.0=/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e6643648a86f38dc6df0a2aace46ba4b18ceb320/classes.dex
+#Sun Apr 09 23:18:18 JST 2017
+base.0=/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/ABS104a/Dropbox/Biyontter/workspace/HTML5Cam/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

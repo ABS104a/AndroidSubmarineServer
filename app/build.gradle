@@ -5,7 +5,7 @@ android {
     buildToolsVersion "25.0.0"
 
     defaultConfig {
-        applicationId "at.smartlab.html5cam"
+        applicationId "com.abs104a.com.client.androidsubmarine"
         minSdkVersion 8
         targetSdkVersion 8
         compileOptions {

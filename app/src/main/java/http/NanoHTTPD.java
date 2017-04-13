@@ -1,9 +1,17 @@
 package http;
 
+import android.content.res.AssetManager;
+import android.graphics.Rect;
+import android.graphics.YuvImage;
+import android.util.Log;
+
+import com.abs104a.com.client.androidsubmarine.httpservice.LocalHttpService;
+
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
 import java.io.File;
-import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -13,25 +21,14 @@ import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.URLEncoder;
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
 import java.util.Date;
 import java.util.Enumeration;
-import java.util.Vector;
 import java.util.Hashtable;
 import java.util.Locale;
 import java.util.Properties;
 import java.util.StringTokenizer;
 import java.util.TimeZone;
-
-import java.io.ByteArrayOutputStream;
-import java.io.FileOutputStream;
-
-import android.content.res.AssetFileDescriptor;
-import android.content.res.AssetManager;
-import android.graphics.Rect;
-import android.graphics.YuvImage;
-import at.smartlab.html5cam.httpservice.LocalHttpService;
+import java.util.Vector;
 
 /**
  * A simple, tiny, nicely embeddable HTTP 1.0 (partially 1.1) server in Java
@@ -406,7 +403,7 @@ public class NanoHTTPD
 					files.put("content", saveTmpFile( fbuf, 0, f.size()));
 
 				// check password
-				if(uri.endsWith("cam.jpg")) {
+				if(uri.endsWith("cam.jpg") || uri.endsWith("light")) {
 					String pwd = parms.getProperty("pwd");
 					if(pwd == null) {
 						sendError( HTTP_FORBIDDEN, "WRONG Password: Check your password!" );
@@ -858,8 +855,17 @@ public class NanoHTTPD
 				mime = (String)theMimeTypes.get( uri.substring( dot + 1 ).toLowerCase());
 			if ( mime == null )
 				mime = MIME_DEFAULT_BINARY;
-			
-			if(!uri.equals("cam.jpg")) {
+
+			Log.v("Server","URI:" + uri);
+			if(uri.contains("light")) {
+				//light
+				mime = 	MIME_HTML;
+				LocalHttpService.setLight(!LocalHttpService.getLight());
+				String result = "<html><body>OK</body></html>";
+				res = new Response( HTTP_OK, mime, result);
+				res.addHeader( "Content-Length", "" + result.length());
+				Log.v("Server","URISETLIGHT:" + uri);
+			}else if(!uri.equals("cam.jpg")) {
 				InputStream in = am.open(uri);
 				res = new Response( HTTP_OK, mime, in);
 				res.addHeader( "Content-Length", "" + in.available());

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="at.smartlab.html5cam.test">
+    package="com.abs104a.com.client.androidsubmarine.test">
 
     <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="8" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="at.smartlab.html5cam"
+                     android:targetPackage="com.abs104a.com.client.androidsubmarine"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for at.smartlab.html5cam"/>
+                     android:label="Tests for com.abs104a.com.client.androidsubmarine"/>
 </manifest>
